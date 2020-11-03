@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+
+.warp {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 1200px;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 auto;
+}
+
+.logo {
+    /* margin-top: 11px; */
+    float: left;
+    width: 240px;
+    height: 70px;
+}
+
+.logo img {
+    padding-top: 11px;
+}
+
+.header ul {
+    float: left;
+}
+
+.header ul li {
+    float: left;
+    padding: 0 15px;
+}
+
+.header form {
+    float: right;
+}
+
+.header .txt {
+    float: left;
+    width: 190px;
+    height: 40px;
+    margin-top: 15px;
+    background: #ebebeb url(./img/7e3ea7aaacad3c4a9b4bed1098e31978.png)no-repeat right center;
+    border: none;
+}
+
+.nav {
+    background: #f0f0f0;
+    width: 100%;
+    height: 60px;
+}
+
+.nav1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav1 ul li {
+    line-height: 60px;
+    padding: 0 5px;
+    font-size: 14px;
+    float: left;
+    color: #666;
+}
+
+.banner {
+    width: 100%;
+    height: 475px;
+    background: url(https://www.enn.cn/static/home/images/about_company_0.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.text {
+    width: 1200px;
+    height: 144px;
+    margin: 50px auto;
+    line-height: 25px;
+}
+
+.num {
+    width: 1200px;
+    height: 145px;
+    line-height: 77px;
+    margin: 0 auto;
+    background: #f3f6f6;
+}
+
+.num1 {
+    width: 398px;
+    height: 145px;
+    float: left;
+    border-right: 2px solid #acacac;
+}
+
+.num1 h1 {
+    text-align: center;
+    color: #00b4d5;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.num1 h1 span {
+    font-size: 14px;
+    color: #666;
+    font: 16px;
+}
+
+.num1 p {
+    color: #666;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.num2 {
+    width: 398px;
+    height: 145px;
+    float: left;
+    border-right: 2px solid #acacac;
+}
+
+.num2 h1 {
+    text-align: center;
+    color: #00b4d5;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.num2 h1 span {
+    font-size: 14px;
+    color: #666;
+    font: 16px;
+}
+
+.num2 p {
+    color: #666;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.content {
+    width: 100%;
+    margin-top: 50px;
+    background: #f4f4f4;
+}
+
+.title {
+    width: 1200px;
+    height: 134px;
+    margin: 0 auto;
+    line-height: 134px;
+}
+
+.title p {
+    font-size: 40px;
+    color: #666;
+}
+
+.content1 {
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.content1 .left {
+    width: 370px;
+    height: 750px;
+    float: left;
+    background: #fff;
+}
+
+.content1 .left .title1 {
+    height: 74px;
+    line-height: 72px;
+}
+
+.content1 .left .title1 p {
+    margin-left: 15px;
+    width: 200px;
+    border-bottom: 2px solid #00b4d5;
+    font-size: 25px;
+}
+
+.content1 .left h2 {
+    padding: 20px 15px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #666;
+}
+
+.content1 .left h1 {
+    color: #00b4d5;
+    font-size: 40px;
+    font-weight: normal;
+    padding-left: 15px;
+}
+
+.content1 .left h1 span {
+    color: #666;
+    font-size: 16px;
+}
+
+.content1 .left .p1 {
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #666;
+}
+
+.content1 .right {
+    width: 805px;
+    height: 750px;
+    float: right;
+}
+
+.content1 .right .right1 {
+    width: 805px;
+    height: 328px;
+    background: #fff;
+}
+
+.content1 .right .right1 .zuo {
+    width: 240px;
+    margin: 0 15px;
+    float: left;
+}
+
+.content1 .right .right1 .zuo .title2 {
+    height: 74px;
+    line-height: 72px;
+}
+
+.content1 .right .right1 .zuo .title2 p {
+    width: 200px;
+    border-bottom: 2px solid #00b4d5;
+    font-size: 25px;
+}
+
+.content1 .right .right1 .zuo h2 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #666;
+}
+
+.content1 .right .right1 .zuo h1 {
+    color: #00b4d5;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.content1 .right .right1 .zuo h1 span {
+    color: #666;
+    font-size: 16px;
+}
+
+.content1 .right .right1 img {
+    width: 525px;
+    height: 328px;
+    float: right;
+}
+
+.content1 .right .ps {
+    padding-left: 20px;
+    color: #666;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.content1 .right .right2 {
+    width: 805px;
+    height: 396px;
+    background: #fff;
+}
+
+.content1 .right .right2 img {
+    float: left;
+    width: 500px;
+    height: 376px;
+}
+
+.content1 .right .right2 .title2 {
+    height: 74px;
+    line-height: 72px;
+    margin: 0 15px;
+    float: left;
+    width: 260px;
+}
+
+.content1 .right .right2 .title2 p {
+    width: 200px;
+    border-bottom: 2px solid #00b4d5;
+    font-size: 25px;
+}
+
+.content1 .right .right2 h2 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #666;
+    margin-left: 15px;
+    width: 260px;
+    float: left;
+}
+
+.content1 .right .right2 h1 {
+    color: #00b4d5;
+    font-size: 40px;
+    font-weight: normal;
+    margin-left: 15px;
+    width: 260px;
+    float: left;
+    margin-top: 15px;
+}
+
+.content1 .right .right2 h1 span {
+    color: #666;
+    font-size: 16px;
+}
+
+.content2 {
+    width: 100%;
+    height: 100%;
+}
+
+.content2 .con {
+    width: 1600px;
+    height: 282px;
+    margin: 50px auto 0;
+}
+
+.content2 .con img {
+    width: 400px;
+    height: 282px;
+    float: left;
+}
